@@ -1,4 +1,4 @@
-use role ACCOUNTADMIN;
+use role SYSADMIN;
 use warehouse ECOM_DEV;
 use database ECOM_DWH_DEV;
 use schema LANDING;

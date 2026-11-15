@@ -1,4 +1,4 @@
-use role ACCOUNTADMIN;
+use role SYSADMIN;
 use database ECOM_DWH_DEV;
 use schema CONTROL;
 
