@@ -144,3 +144,6 @@ select * from RAW_SELLERS;
 select count(distinct seller_id) as cnt_unique_records,count(*) as records from RAW_SELLERS; -- Good to go
 
 select * from RAW_SELLERS where seller_zip_code_prefix is null or seller_city is null or seller_state is null; -- Good to go
+
+
+-- Orphaned Records

@@ -12,3 +12,9 @@ create schema if not exists CONTROL;
 
 -- Create Schema for Bronze Layer
 create schema if not exists raw_data;
+
+-- Create Schema for Silver Layer
+create schema if not exists transformed_data;
+
+-- Create Schema for ERROR Records
+create schema if not exists error;
